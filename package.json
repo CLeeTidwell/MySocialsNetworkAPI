@@ -1,11 +1,27 @@
 {
-  "name": "socialnetworkapi",
+  "name": "mysocialsnetworkapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Social Network API",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLeeTidwell/MySocialsNetworkAPI.git"
+  },
+  "author": "CLeeTidwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CLeeTidwell/MySocialsNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/CLeeTidwell/MySocialsNetworkAPI#readme",
   "dependencies": {
-    "express": "^4.17.3"
-}  
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.1",
+    "validator": "^13.7.0",
+    "winston": "^3.7.2"
+  }
+}
